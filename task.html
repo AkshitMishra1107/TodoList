@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="top">
+
+
+        <div class="topbar">
+            <div class="menu-toggle">🟰</div>
+            <div class="menu-items">
+                <a href="task.html">👉My Tasks <span>-3</span></a>
+                <a href="important.html">👉Important <span>-3</span></a>
+                <a href="completed.html">👉Completed <span>-3</span></a>
+            </div>
+        </div>
+
+
+        <div class="heading">
+            <span>📋Tasks</span>
+        </div>
+    </div>
+    <div class="Tasks">
+    </div>
+
+    <div class="comphead">
+        <p class="Cmpltd">🔻Completed</p>
+    </div>
+
+    <div class="Tasks completedTasks">
+    </div>
+
+    <div class="input">
+        <div class="inputbar">
+            <input type="text" class="input-text" required>
+            <button onclick="
+            addTodo()">➕ Add Task</button>
+        </div>
+    </div>
+    <script src="task.js"></script>
+</body>
+
+</html>
